@@ -58,8 +58,8 @@ namespace AuthenticationDemo
 
             app.UseTwitterAuthentication(new TwitterAuthenticationOptions
             {
-                ConsumerKey = "6QYU1GpygByIwkonwuuiheVrQ",
-                ConsumerSecret = "nTMNXRpitDTaJzYdZc39ZUdVn8HP1eoYUiuoLXjtESk7I8OkdJ",
+                ConsumerKey = "dO57svj3rXimXT7CJrotIUn5m",
+                ConsumerSecret = "2Wwtm5C3AMLqUeb0sC3WF3ggNv3YSsD5qztciKbopF1eOR9JfR",
                 BackchannelCertificateValidator = new CertificateSubjectKeyIdentifierValidator(new[]
                 {
                     "A5EF0B11CEC04103A34A659048B21CE0572D7D47", // VeriSign Class 3 Secure Server CA - G2
